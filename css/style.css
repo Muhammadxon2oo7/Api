@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.img {
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+}
+.img:hover {
+  -webkit-box-shadow: 5px 8px 0 grey;
+          box-shadow: 5px 8px 0 grey;
+}
+
+.load {
+  position: absolute;
+  left: 43%;
+  top: 37%;
+}
+
+.none {
+  display: none;
+  background-color: red;
+}
